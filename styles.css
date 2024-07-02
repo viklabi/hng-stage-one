@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Helvetica, sans-serif;
+}
+body {
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: auto;
+  padding-bottom: 1em;
+}
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 1em;
+  width: 100%;
+}
+h1, h2{
+  font-weight: 700;
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+h1{
+  font-size: clamp(1.5em, 5vh, 3em);
+}
+.profile {
+  padding: 1.2em;
+  width: fit-content;
+  background-color: #fff;
+  margin-top: 2em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #ddd;
+}
+h2{
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+.profile p{
+  margin-top: 6px;
+}
+span{
+  font-weight: bold;
+}
+.goals{
+  margin: 2em;
+  width: 60%;
+}
+.goals h2{
+  margin-bottom: 1em;
+}
+.goals ul{
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 5px;
+}
+.goal{
+  margin-top: 1em;
+
+}
+.goal h3{
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.resources ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-direction: column;
+  margin-top: 8px;
+}
+a {
+  color: #4CAF50; 
+}
+
+a:hover {
+  color: #45A049;
+}
+
+a:active {
+  color: #388E3C;
+}
+
+a:visited {
+  color: #2E7D32; 
+}
+@media (max-width: 600px) {
+  header{
+    padding: 0.6em;
+  }
+  .goals {
+      width: 90%;
+  }
+}
